@@ -40,5 +40,8 @@ featimp = pd.Series(model.feature_importances_, index=predictor_var).sort_values
 print featimp']
 classification_model(model, df,predictor_var,outcome_var)
 ```
+Accuracy : 100.000%
+Cross-Validation Score : 78.831%
+
 ## Conclusion
 - I think this project was a sufficient introduction to data science and will serve as a good model for me as I move forward and complete more projects independently.  I uploaded the full python code from Jupyter Notebook and the data set I used in this repository for viewing.
